@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<title>Foster To Code</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/tech.png");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+
+<div class="w3-top">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Foster To Code  </title>
+</head>
+
+<body class="grey lighten-3"">
+
+  <!-- NAVBAR -->
+  <nav class="z-depth-0 grey lighten-4">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="grey-text modal-trigger">
+        <style="width: 180px; margin-top: 10px;">
+        Home
+      </a> 
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+         
+            <li class="logged-in" >
+            <a href= "cog.html" class="grey-text" id="Motivation">Cognitive</a>
+          </li>
+           <li class="logged-in" >
+            <a href= "motivation.html" class="grey-text" id="Motivation">Motivation</a>
+          </li>
+          <li class="logged-in" >
+            <a href= "modLearn.html" class="grey-text" id="DifferentModalites">Different Modalities Of Learning</a>
+          </li>
+           <li class="logged-in" >
+            <a href= "practice.html" class="grey-text" id="Practice">Practice</a>
+          </li>
+          <li class="logged-in" >
+            <a href="#" class="grey-text" id="logout">Logout</a>
+          </li>
+          
+          
+        </span>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag"> "Remember Why You Started" </span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Motivation</span>
+  </div>
+  
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- Step 1 Write about why you are taking the course and what is the personal meaning  -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Step 1 </span></h5>
+    <p> Reflect on why you are taking the course. What did you want to get out of this class?  </p>
+    <form action="#" method="post">
+      <textarea> Reflect Here!  </textarea>
+    </form>
+   
+  </div>
+</div>
+
+<!-- Step 2 On a scale from 1(low) - 5 (high) answer the following -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Step 2 </span></h5>
+    <p> On a scale from 1(low) to 5(high) rate the following:  </p>
+    <!-- QUESTION 1 -->
+    <h6> 1. Rate your interest in the course </h6>
+   <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio" checked />
+        <span>1</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>2</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>3</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>4</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>5</span>
+      </label>
+    </p>
+  </form>
+
+
+  <!-- QUESTION 2 -->
+   <h6> 2. Rate your enjoyment in the course </h6>
+   <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio" checked />
+        <span>1</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>2</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>3</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>4</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>5</span>
+      </label>
+    </p>
+  </form>
+
+
+    <!-- QUESTION 3 -->
+    <h6> 3. Rate the likelihood of learning computer science during your free time with no additional rewards </h6>
+   <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio" checked />
+        <span>1</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>2</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>3</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>4</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>5</span>
+      </label>
+    </p>
+  </form>
+
+  </div>
+
+</div>
+
+<!-- Step 3 Display the Different Career Options With Studying CS -->
+
+ <!-- First Row of Photo Grid-->
+ <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Step 3 </span></h5>
+ <p class="w3-center w3-padding-64" >Let's explore the different kinds of careers you can have with CS knowledge! </p>
+  <div class="w3-row-padding">
+  
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/fortnite.jpg" alt="Norway" style="width:100%" height="230" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+       <p> <b>Game Developer</b></p>
+        <p> Do you want to create games? Game developers work on teams to plan, design, and produce video games for computers, mobile devices, or game consoles. 
+        Their work involves creating visual content for the game and writing code to implement all the game's features and functionality.</p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/coursera.jpg" alt="Norway" style="width:100%"  height="230" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Education and CS</b></p>
+        <p>Do you want to create tools that can help improve education? Educational technology is the use of both physical hardware, software, and educational 
+        theoretic to facilitate learning and improve performance.</p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container">
+      <img src="img/healthcare.jpg" alt="Norway" style="width:100%" height="230"class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Healthcare and CS</b></p>
+        <p> Are you interested in Healthcare and Tech? CS skills can be applied to health in the form of devices, medicines, vaccines, 
+        procedures, and systems developed to solve a health problem and improve quality of lives. </p>
+      </div>
+    </div>
+  </div>
+
+    <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/music.jpg" alt="Norway" style="width:100%" height="230" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Music and CS </b></p>
+        <p> Music and CS can be combined. Computer music is the application of computing technology in 
+        music composition, to help human composers create new music or to have computers independently create music, 
+        such as with algorithmic composition programs</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/robotics.jpg" alt="Norway" style="width:100%"   height="230" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Robotics</b></p>
+        <p>Robotics involves design, construction, operation, and use of robots. The goal of robotics is to design intelligent machines that can help
+         and assist humans in their day-to-day lives and keep everyone safe.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/fash.jpeg" alt="Norway" style="width:100%"   height="230" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Fashion and Tech </b></p>
+        <p>fashion technology is growing at a faster pace than ever. From robots that sew and cut fabric, to AI 
+        algorithms that predict style trends, to VR mirrors 
+        in dressing rooms, technology is automating, personalizing, and speeding up every aspect of fashion</p>
+      </div>
+    </div>
+    
+  </div>
+
+<!-- Step 4 Students answer the following questions:  “What do you want to do with your CS knowledge?Was there a career
+ listed above that you are potentially interested in?  If not,  elaborate onwhat you want to do with computer science.” -->
+
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Step 4 </span></h5>
+    <p> Write about what you want to do with your CS skills. Were there any careers listed above that you are potentially
+        interested in? If not, elaborate on what you want to do with CS.  </p>
+    <form action="#" method="post">
+      <textarea> Reflect Here!  </textarea>
+    </form>
+  </div>
+</div>
+
+<!-- Step 5 On a scale from 1(low) - 5 (high) answer the following -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Step 5 </span></h5>
+    <p> On a scale from 1(low) to 5(high) rate the following:  </p>
+    
+    <!-- QUESTION 1 -->
+    <h6> 1. Rate your interest in the course </h6>
+   <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio" checked />
+        <span>1</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>2</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>3</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>4</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>5</span>
+      </label>
+    </p>
+  </form>
+
+
+  <!-- QUESTION 2 -->
+   <h6> 2. Rate your enjoyment in the course </h6>
+   <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio" checked />
+        <span>1</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>2</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>3</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>4</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>5</span>
+      </label>
+    </p>
+  </form>
+
+
+    <!-- QUESTION 3 -->
+    <h6> 3. Rate the likelihood of learning computer science during your free time with no additional rewards </h6>
+   <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio" checked />
+        <span>1</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>2</span>
+      </label>
+
+       <label>
+        <input name="group1" type="radio" />
+        <span>3</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>4</span>
+      </label>
+
+      <label>
+        <input name="group1" type="radio" />
+        <span>5</span>
+      </label>
+    </p>
+  </form>
+  
+    
+
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- End page content -->
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p> Spring 2020 </p>
+</footer>
+
+</div>
+
+
+</body>
+</html>
