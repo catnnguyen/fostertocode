@@ -1,7 +1,5 @@
 # fosterToCode
 
-To run the code locally, do 
-# firebase serve 
+To run the code locally, do firebase serve 
 
-To deploy, do 
-# firebase deploy
+To deploy, do firebase deploy
