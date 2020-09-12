@@ -84,9 +84,13 @@ body, html {
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Step 1 </span></h5>
-    <p> Reflect on why you are taking the course. What did you want to get out of this class?  </p>
-    <form action="#" method="post">
-      <textarea> Reflect Here!  </textarea>
+    <p> Reflect on why you are taking COS 126. What did you want to get out of this class? (Remember to click save) </p>
+     <form id="Mot-create-form1">
+        <div class="input-field">
+          <input type="text" id="sum1" required>
+          <label for="sum1"></label>
+        </div>
+        <button type = "submit" class="btn yellow darken-2 z-depth-0" >Save</button>
     </form>
    
   </div>
@@ -96,101 +100,27 @@ body, html {
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Step 2 </span></h5>
-    <p> On a scale from 1(low) to 5(high) rate the following:  </p>
+    <p> On a scale from 1(low) to 5(high) rate the following(Rememember to click save):  </p>
     <!-- QUESTION 1 -->
     <h6> 1. Rate your interest in the course </h6>
-   <form action="#">
-    <p>
-      <label>
-        <input name="group1" type="radio" checked />
-        <span>1</span>
-      </label>
+    <form id="survey1">
+        <div class="input-field">
+          <input type="text" id="interest" required>
+          <label for="interest"></label>
+        </div>
+        <h6> 2. Rate your enjoyment in the course </h6>
+        <div class="input-field">
+          <input type="text" id="enjoy" required>
+          <label for="enjoy"></label>
+        </div>
+        <h6> 3. Rate the likelihood of learning computer science during your free time with no additional rewards </h6>
+        <div class="input-field">
+          <input type="text" id="likelihood" required>
+          <label for="likelihood"></label>
+        </div>
 
-       <label>
-        <input name="group1" type="radio" />
-        <span>2</span>
-      </label>
-
-       <label>
-        <input name="group1" type="radio" />
-        <span>3</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>4</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>5</span>
-      </label>
-    </p>
-  </form>
-
-
-  <!-- QUESTION 2 -->
-   <h6> 2. Rate your enjoyment in the course </h6>
-   <form action="#">
-    <p>
-      <label>
-        <input name="group1" type="radio" checked />
-        <span>1</span>
-      </label>
-
-       <label>
-        <input name="group1" type="radio" />
-        <span>2</span>
-      </label>
-
-       <label>
-        <input name="group1" type="radio" />
-        <span>3</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>4</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>5</span>
-      </label>
-    </p>
-  </form>
-
-
-    <!-- QUESTION 3 -->
-    <h6> 3. Rate the likelihood of learning computer science during your free time with no additional rewards </h6>
-   <form action="#">
-    <p>
-      <label>
-        <input name="group1" type="radio" checked />
-        <span>1</span>
-      </label>
-
-       <label>
-        <input name="group1" type="radio" />
-        <span>2</span>
-      </label>
-
-       <label>
-        <input name="group1" type="radio" />
-        <span>3</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>4</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>5</span>
-      </label>
-    </p>
-  </form>
+        <button type = "submit" class="btn yellow darken-2 z-depth-0" >Save</button>
+    </form>
 
   </div>
 
@@ -270,8 +200,12 @@ body, html {
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Step 4 </span></h5>
     <p> Write about what you want to do with your CS skills. Were there any careers listed above that you are potentially
         interested in? If not, elaborate on what you want to do with CS.  </p>
-    <form action="#" method="post">
-      <textarea> Reflect Here!  </textarea>
+    <form id="Mot-create-form2">
+        <div class="input-field">
+          <input type="text" id="sum2" required>
+          <label for="sum2"></label>
+        </div>
+        <button type = "submit" class="btn yellow darken-2 z-depth-0" >Save</button>
     </form>
   </div>
 </div>
@@ -284,100 +218,25 @@ body, html {
     
     <!-- QUESTION 1 -->
     <h6> 1. Rate your interest in the course </h6>
-   <form action="#">
-    <p>
-      <label>
-        <input name="group1" type="radio" checked />
-        <span>1</span>
-      </label>
+     <form id="survey2">
+        <div class="input-field">
+          <input type="text" id="interest2" required>
+          <label for="interest2"></label>
+        </div>
+        <h6> 2. Rate your enjoyment in the course </h6>
+        <div class="input-field">
+          <input type="text" id="enjoy2" required>
+          <label for="enjoy2"></label>
+        </div>
+        <h6> 3. Rate the likelihood of learning computer science during your free time with no additional rewards </h6>
+        <div class="input-field">
+          <input type="text" id="likelihood2" required>
+          <label for="likelihood2"></label>
+        </div>
 
-       <label>
-        <input name="group1" type="radio" />
-        <span>2</span>
-      </label>
-
-       <label>
-        <input name="group1" type="radio" />
-        <span>3</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>4</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>5</span>
-      </label>
-    </p>
-  </form>
-
-
-  <!-- QUESTION 2 -->
-   <h6> 2. Rate your enjoyment in the course </h6>
-   <form action="#">
-    <p>
-      <label>
-        <input name="group1" type="radio" checked />
-        <span>1</span>
-      </label>
-
-       <label>
-        <input name="group1" type="radio" />
-        <span>2</span>
-      </label>
-
-       <label>
-        <input name="group1" type="radio" />
-        <span>3</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>4</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>5</span>
-      </label>
-    </p>
-  </form>
-
-
-    <!-- QUESTION 3 -->
-    <h6> 3. Rate the likelihood of learning computer science during your free time with no additional rewards </h6>
-   <form action="#">
-    <p>
-      <label>
-        <input name="group1" type="radio" checked />
-        <span>1</span>
-      </label>
-
-       <label>
-        <input name="group1" type="radio" />
-        <span>2</span>
-      </label>
-
-       <label>
-        <input name="group1" type="radio" />
-        <span>3</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>4</span>
-      </label>
-
-      <label>
-        <input name="group1" type="radio" />
-        <span>5</span>
-      </label>
-    </p>
-  </form>
+        <button type = "submit" class="btn yellow darken-2 z-depth-0" >Save</button>
+    </form>
   
-    
 
   </div>
 </div>
@@ -398,6 +257,36 @@ body, html {
 </footer>
 
 </div>
+
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+  
+  <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAZHgR3QjsuKEfixqRlYVFc8_S5LPpPAqc",
+        authDomain: "fostertocodev5.firebaseapp.com",
+        databaseURL: "https://fostertocodev5.firebaseio.com",
+        projectId: "fostertocodev5",
+        storageBucket: "fostertocodev5.appspot.com",
+        messagingSenderId: "728387152591",
+        appId: "1:728387152591:web:2a40f5f98b424c5b2825ba",
+        measurementId: "G-B3CE53PVQ1"
+    };
+    firebase.initializeApp(config);
+    
+    // make auth and firestore references
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+
+    // update firestore settings
+    db.settings({ timestampsInSnapshots: true });
+  </script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/auth.js"></script>
 
 
 </body>

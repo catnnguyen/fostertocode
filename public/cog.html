@@ -86,7 +86,14 @@ body, html {
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Step 1 </span></h5>
     <p> Start by first taking a quick quiz </p>
     <a href = "https://www.positivityguides.net/test-your-mindset-quiz/" target="_blank"> Click to Take Quiz Here </a>
-
+      <p>Input your the type of mindset received from quiz below:  </p>
+     <form id="Cog-learner-quiz">
+        <div class="input-field">
+          <input type="text" id="learner1" required>
+          <label for="learner1"></label>
+        </div>
+        <button type = "submit" class="btn yellow darken-2 z-depth-0" >Save</button>
+    </form>
   </div>
 </div>
 
@@ -131,8 +138,17 @@ body, html {
     
     <p> Write a letter to help advise the student through what she is experiencing 
           using information from the above article</p> 
-      <textarea> Write here!  </textarea>
     </form>
+
+      <form id="Cog-create-form2">
+        <div class="input-field">
+          <input type="text" id="summaryTwo" required>
+          <label for="summaryTwo"></label>
+        </div>
+        <button type = "submit" class="btn yellow darken-2 z-depth-0" >Save</button>
+    </form>
+     
+    
   </div>
 
   <!-- Step 5 Take a test agiain on your mindset and record the result  -->
@@ -141,7 +157,14 @@ body, html {
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Step 5 </span></h5>
     <p> Let's test your mindset again</p>
     <a href = "https://www.positivityguides.net/test-your-mindset-quiz/" target="_blank"> Click to Take Quiz Here </a>
-
+     <p>Input your score and type of mindset received from quiz below:  </p>
+     <form id="Cog-learner-quiz2">
+        <div class="input-field">
+          <input type="text" id="learner2" required>
+          <label for="learner2"></label>
+        </div>
+        <button type = "submit" class="btn yellow darken-2 z-depth-0" >Save</button>
+    </form>
   </div>
 </div>
 
@@ -160,6 +183,39 @@ body, html {
 </div>
 
 
+
+
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+  
+  <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAZHgR3QjsuKEfixqRlYVFc8_S5LPpPAqc",
+        authDomain: "fostertocodev5.firebaseapp.com",
+        databaseURL: "https://fostertocodev5.firebaseio.com",
+        projectId: "fostertocodev5",
+        storageBucket: "fostertocodev5.appspot.com",
+        messagingSenderId: "728387152591",
+        appId: "1:728387152591:web:2a40f5f98b424c5b2825ba",
+        measurementId: "G-B3CE53PVQ1"
+    };
+    firebase.initializeApp(config);
+    
+    // make auth and firestore references
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+
+    // update firestore settings
+    db.settings({ timestampsInSnapshots: true });
+  </script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/auth.js"></script>
+  
+  
 
 
 </body>
